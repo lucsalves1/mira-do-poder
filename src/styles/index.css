@@ -1,0 +1,23 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.font-serif {
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose p {
+  margin-bottom: 1.5em;
+}
